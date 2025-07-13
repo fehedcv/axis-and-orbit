@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-4 mb-8">
               <img 
-                src="/LOGO-removebg-preview.png" 
+                src="/img/LOGO-removebg-preview.png"
                 alt="Axis & Orbit Logo" 
                 className="h-12 w-auto"
               />

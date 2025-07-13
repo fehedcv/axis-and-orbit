@@ -4,52 +4,20 @@ import { MapPin, Calendar } from 'lucide-react';
 const Team = () => {
   const teamMembers = [
     {
-      name: 'Arjun Nair',
-      role: 'Full-Stack Developer',
-      location: 'Kerala, India',
+      name: 'Danish Roshan',
+      role: 'Founder and Project Manager',
+      location: 'Daejeon, Korea',
       flag: '🇮🇳',
-      since: '2019',
-      avatar: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150'
+      since: '2025',
+      avatar: '/img/danish.jpeg'
     },
     {
-      name: 'Priya Menon',
-      role: 'UI/UX Designer',
+      name: 'Fahad Mohammed Kabeer',
+      role: 'Product Manager and Python Developer',
       location: 'Kerala, India',
       flag: '🇮🇳',
-      since: '2020',
-      avatar: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150'
-    },
-    {
-      name: 'Rahul Kumar',
-      role: 'Backend Developer',
-      location: 'Kerala, India',
-      flag: '🇮🇳',
-      since: '2018',
-      avatar: 'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=150'
-    },
-    {
-      name: 'Anjali Pillai',
-      role: 'Project Manager',
-      location: 'Kerala, India',
-      flag: '🇮🇳',
-      since: '2021',
-      avatar: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150'
-    },
-    {
-      name: 'Suresh Babu',
-      role: 'DevOps Engineer',
-      location: 'Kerala, India',
-      flag: '🇮🇳',
-      since: '2017',
-      avatar: 'https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=150'
-    },
-    {
-      name: 'Maya Joseph',
-      role: 'QA Specialist',
-      location: 'Kerala, India',
-      flag: '🇮🇳',
-      since: '2022',
-      avatar: 'https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&w=150'
+      since: '2024',
+      avatar: '/img/fahad.jpeg'
     }
   ];
 
@@ -94,10 +62,10 @@ const Team = () => {
                   <MapPin className="h-5 w-5 mr-3" />
                   <span className="font-medium">{member.location}</span>
                 </div>
-                <div className="flex items-center justify-center">
+                {/*<div className="flex items-center justify-center">
                   <Calendar className="h-5 w-5 mr-3" />
                   <span className="font-medium">Freelancer since {member.since}</span>
-                </div>
+                </div> */}
               </div>
             </div>
           ))}

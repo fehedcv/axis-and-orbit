@@ -28,14 +28,14 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center space-x-3 animate-fade-in">
-            <img 
-              src="/LOGO-removebg-preview.png" 
+            <img
+              src="img/LOGO-removebg-preview.png"
               alt="Axis & Orbit Logo" 
-              className="h-12 w-auto transition-transform duration-300 hover:scale-105"
+              className="h-15 w-2/5 transition-transform duration-300 hover:scale-105"
             />
-            <span className="text-2xl font-display font-bold text-burgundy-900 tracking-tight">
+            {/* <span className="text-2xl font-display font-bold text-burgundy-900 tracking-tight">
               Axis & Orbit
-            </span>
+            </span> */}
           </div>
 
           {/* Desktop Menu */}
