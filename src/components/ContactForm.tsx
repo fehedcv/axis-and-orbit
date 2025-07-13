@@ -19,11 +19,36 @@ const ContactForm = () => {
     });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Simulate form submission
-    setIsSubmitted(true);
-    setTimeout(() => setIsSubmitted(false), 3000);
+
+    try {
+      const response = await fetch('https://formspree.io/f/myzpgkvo', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData)
+      });
+
+      if (response.ok) {
+        setIsSubmitted(true);
+        setFormData({
+          name: '',
+          company: '',
+          email: '',
+          projectType: '',
+          budget: '',
+          message: ''
+        });
+        setTimeout(() => setIsSubmitted(false), 3000);
+      } else {
+        alert('Something went wrong. Please try again later.');
+      }
+    } catch (error) {
+      console.error('Form submission error:', error);
+      alert('Failed to send. Please check your internet.');
+    }
   };
 
   return (

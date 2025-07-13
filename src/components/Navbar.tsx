@@ -29,7 +29,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center space-x-3 animate-fade-in">
             <img
-              src="img/LOGO-removebg-preview.png"
+              src="https://raw.githubusercontent.com/fehedcv/axis-and-orbit/refs/heads/main/img/LOGO-removebg-preview.png"
               alt="Axis & Orbit Logo" 
               className="h-15 w-2/5 transition-transform duration-300 hover:scale-105"
             />

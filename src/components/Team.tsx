@@ -9,7 +9,7 @@ const Team = () => {
       location: 'Daejeon, Korea',
       flag: '🇮🇳',
       since: '2025',
-      avatar: '/img/danish.jpeg'
+      avatar: 'https://raw.githubusercontent.com/fehedcv/axis-and-orbit/refs/heads/main/img/danish.jpeg'
     },
     {
       name: 'Fahad Mohammed Kabeer',
@@ -17,7 +17,7 @@ const Team = () => {
       location: 'Kerala, India',
       flag: '🇮🇳',
       since: '2024',
-      avatar: '/img/fahad.jpeg'
+      avatar: 'https://raw.githubusercontent.com/fehedcv/axis-and-orbit/refs/heads/main/img/fahad.jpeg'
     }
   ];
 
