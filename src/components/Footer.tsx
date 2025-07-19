@@ -36,10 +36,6 @@ const Footer = () => {
                 <Mail className="h-5 w-5 mr-4 text-cream-400 group-hover:scale-110 transition-transform duration-300" />
                 <span className="text-cream-200 text-lg">hello@axisandorbit.com</span>
               </div>
-              <div className="flex items-center group">
-                <Phone className="h-5 w-5 mr-4 text-cream-400 group-hover:scale-110 transition-transform duration-300" />
-                <span className="text-cream-200 text-lg">+91 98765 43210</span>
-              </div>
             </div>
           </div>
 

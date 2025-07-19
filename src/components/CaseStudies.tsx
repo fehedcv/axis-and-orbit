@@ -1,5 +1,7 @@
 import React from 'react';
 import { ExternalLink, Clock, TrendingUp, Users } from 'lucide-react';
+import { Link } from 'react-router-dom';
+
 
 const CaseStudies = () => {
   const cases = [
@@ -53,8 +55,8 @@ const CaseStudies = () => {
 
         <div className="grid lg:grid-cols-3 gap-10">
           {cases.map((caseStudy, index) => (
-            <div 
-              key={index} 
+              <Link to={`/case${index + 1}`} key={index}>
+            <div
               className="group bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-3 animate-slide-up border border-cream-200"
               style={{animationDelay: `${index * 0.2}s`}}
             >
@@ -96,6 +98,7 @@ const CaseStudies = () => {
                 </div>
               </div>
             </div>
+              </Link>
           ))}
         </div>
       </div>

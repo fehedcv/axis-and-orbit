@@ -1,8 +1,26 @@
 import React from 'react';
-import { Smartphone, Palette, TestTube, Server, Users, Rocket, ArrowRight } from 'lucide-react';
+import { Smartphone, Palette, TestTube, Server, Users, Rocket, ArrowRight, BrainCircuit, Building2, Bot} from 'lucide-react';
 
 const Services = () => {
   const services = [
+    {
+      icon: Bot, // or use BrainCircuit, Mic, MessageCircleCode, ScanText
+      title: 'Conversational AI',
+      description: 'Build intelligent chatbots and voice assistants that understand and respond to human language using NLP and machine learning.',
+      technologies: ['Dialogflow', 'Rasa', 'OpenAI', 'LangChain', 'Speech-to-Text', 'LLMs', 'Python']
+    },
+    {
+      icon: Building2,
+      title: 'BI & Analytics',
+      description: 'Transform raw data into actionable insights with dashboards, reporting tools, and advanced data visualization to drive smart decision-making.',
+      technologies: ['Power BI', 'Tableau', 'SQL', 'Python', 'Excel', 'Google Data Studio']
+    },
+    {
+      icon: BrainCircuit,
+      title: 'AI & Iot',
+      description: 'Smart AI-powered features integrated into your systems for automation and insights',
+      technologies: ['Python', 'TensorFlow', 'OpenAI', 'LLMs']
+    },
     {
       icon: Smartphone,
       title: 'App Development',
