@@ -37,7 +37,7 @@ const teamMembersData: TeamMember[] = [
         location: "Kerala, India",
         bio: "",
         avatar: "https://raw.githubusercontent.com/fehedcv/axis-and-orbit/refs/heads/main/img/fahad.jpeg",
-        detailedBio: "A passionate and driven Computer Engineering diploma student with hands-on experience in Python development, product management, and collaborative software projects. Currently contributing as Product Manager and Python Developer at Axis & Orbit, Fahad combines strong technical knowledge with an eye for usability and innovation. Proven ability to lead and contribute to real-world applications, including internship experience in manpower invoicing software and involvement in AI, web, and hardware-integrated projects. Always learning, always building.",
+        detailedBio: "A passionate and driven Computer Engineering student with hands-on experience in Python development, project management, and collaborative software projects. Currently contributing as Product Manager and Python Developer at Axis & Orbit, Fahad combines strong technical knowledge with an eye for usability and innovation. Proven ability to lead and contribute to real-world applications, including involvement in AI, web, and hardware-integrated projects. Always learning, always building.",
         currentProjects: [
             "Online exam portal for SSM Polytechnic College Tirur",
             "Water level management system for household water tanks",
