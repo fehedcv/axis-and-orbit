@@ -16,11 +16,6 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-4 mb-8">
-              <img 
-                src="/img/LOGO-removebg-preview.png"
-                alt="Axis & Orbit Logo" 
-                className="h-12 w-auto"
-              />
               <span className="text-3xl font-display font-bold">Axis & Orbit</span>
             </div>
             <p className="text-cream-200 leading-relaxed mb-8 max-w-md text-lg font-light">
@@ -67,14 +62,14 @@ const Footer = () => {
                   Case Studies
                 </button>
               </li>
-              <li>
+              {/*<li>
                 <button 
                   onClick={() => scrollToSection('pricing')}
                   className="text-cream-200 hover:text-cream-400 transition-all duration-300 text-lg font-light hover:translate-x-2 transform"
                 >
                   Pricing
                 </button>
-              </li>
+              </li> */}
               <li>
                 <button 
                   onClick={() => scrollToSection('contact')}

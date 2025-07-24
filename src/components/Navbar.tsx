@@ -49,8 +49,8 @@ const Navbar = () => {
             <button onClick={() => scrollToSection('case-studies')} className="text-burgundy-700 hover:text-cream-600 transition-all duration-300 font-medium text-lg tracking-wide hover:scale-105">
               Case Studies
             </button>
-            <button onClick={() => scrollToSection('pricing')} className="text-burgundy-700 hover:text-cream-600 transition-all duration-300 font-medium text-lg tracking-wide hover:scale-105">
-              Pricing
+            <button onClick={() => scrollToSection('team')} className="text-burgundy-700 hover:text-cream-600 transition-all duration-300 font-medium text-lg tracking-wide hover:scale-105">
+              Team
             </button>
             <button onClick={() => scrollToSection('contact')} className="bg-burgundy-800 text-cream-100 px-8 py-3 rounded-full hover:bg-burgundy-700 transition-all duration-300 font-semibold text-lg tracking-wide transform hover:scale-105 hover:shadow-lg">
               Contact

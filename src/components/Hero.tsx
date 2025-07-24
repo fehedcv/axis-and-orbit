@@ -35,7 +35,7 @@ const Hero = () => {
               <span className="text-cream-300 animate-fade-in" style={{animationDelay: '0.3s'}}>Reliable</span> Like Agencies.
             </h1>
             <p className="text-2xl text-cream-200 mb-10 leading-relaxed font-light tracking-wide animate-slide-up" style={{animationDelay: '0.6s'}}>
-              Premium digital delivery from Kerala to the world. We combine the agility of top freelancers with the structure and reliability of established agencies.
+              Premium digital delivery from Kerala to the world. We combine the agility of elite digital teams with the structure and reliability of established agencies
             </p>
             <div className="flex flex-col sm:flex-row gap-6 animate-slide-up" style={{animationDelay: '0.9s'}}>
               <button 

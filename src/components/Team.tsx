@@ -1,19 +1,22 @@
 import React from 'react';
 import { MapPin, Calendar } from 'lucide-react';
+import {Link} from 'react-router-dom';
 
 const Team = () => {
   const teamMembers = [
     {
+      id: 'dsh',
       name: 'Danish Roshan',
-      role: 'Founder and Project Manager',
+      role: 'Founder and CEO',
       location: 'Daejeon, Korea',
       flag: '🇮🇳',
       since: '2025',
       avatar: 'https://raw.githubusercontent.com/fehedcv/axis-and-orbit/refs/heads/main/img/danish.jpeg'
     },
     {
+      id: 'fhd',
       name: 'Fahad Mohammed Kabeer',
-      role: 'Product Manager and Python Developer',
+      role: 'Project Manager',
       location: 'Kerala, India',
       flag: '🇮🇳',
       since: '2024',
@@ -29,7 +32,7 @@ const Team = () => {
   };
 
   return (
-    <section className="py-24 bg-white">
+    <section className="py-24 bg-white" id='team'>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-20 animate-slide-up">
           <h2 className="text-5xl font-display font-bold text-burgundy-900 mb-6 tracking-tight">Meet Our Team</h2>
@@ -37,10 +40,10 @@ const Team = () => {
             Talented professionals from Kerala delivering world-class solutions with local expertise and global perspective.
           </p>
         </div>
-
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 mb-16">
           {teamMembers.map((member, index) => (
-            <div 
+              <Link to={`/person/${member.id}`} key={index}>
+            <div
               key={index} 
               className="group bg-gradient-to-br from-cream-50 to-cream-100 rounded-2xl p-8 text-center hover:shadow-xl transition-all duration-500 transform hover:-translate-y-2 animate-slide-up border border-cream-200"
               style={{animationDelay: `${index * 0.1}s`}}
@@ -68,8 +71,11 @@ const Team = () => {
                 </div> */}
               </div>
             </div>
+            </Link>
           ))}
+
         </div>
+
 
         <div className="text-center animate-slide-up">
           <div className="bg-gradient-to-r from-cream-100 to-cream-200 rounded-2xl p-12 max-w-3xl mx-auto border border-cream-300">
