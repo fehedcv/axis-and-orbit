@@ -7,8 +7,8 @@ interface TeamMember {
     name: string;
     role: string;
     skills: string[];
-    experience: number;
-    projectsDone: number;
+    experience?: number;
+    projectsDone?: number;
     github?: string;
     linkedin?: string;
     email?: string;
@@ -44,7 +44,27 @@ const teamMembersData: TeamMember[] = [
             "Cubeeto - AI based learning for higher education"
         ],
         expertise: ["Full-Stack Development", "IoT", "Python Development", "Team Leadership"]
+    },
+    {
+        id: "dsh",
+        name: "Danish Roshan",
+        role: "Founder & CEO",
+        skills: ["Physicist", "Entrepreneur", "Global Korea Scholar"],
+        experience: 2,
+        projectsDone: 8,
+        linkedin: "https://www.linkedin.com/in/danish-roshan-5867b7367?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        email: "danish@axisorbit.in",
+        phone: "+91 8289848173",
+        location: "Kerala, India",
+        bio: "Founder & Global Strategy Lead📍 Based in Daejeon, South Korea | Operations in India, Korea, Middle East, china,  Vietnam , Thailand, hongkong",
+        avatar: "https://raw.githubusercontent.com/fehedcv/axis-and-orbit/refs/heads/main/img/danish.jpeg",
+        detailedBio:"Danish Roshan is a multilingual physicist, social entrepreneur, and global strategist with a passion for bridging technology, governance, and cross-cultural collaboration. As the founder of Axis & Orbit, Danish leads international expansion, partnerships, and innovation strategy, drawing from his academic training in Physics and International Studies, and real-world experience across India, South Korea, and Southeast Asia. A Global Korea Scholar (GKS) and student leader at Chungnam National University, Danish has worked on propulsion research, computational fluid dynamics (CFD), and AI-driven public systems. He previously held political and media roles in the Student Federation of India and grassroots movements like the NSS and Ashraya, making him uniquely positioned at the intersection of science, diplomacy, and digital transformation.Under his leadership, Axis & Orbit has launched scalable digital delivery solutions powered by agency partners in India and Korea—serving global clients with speed, agility, and premium quality. Danish also oversees the company’s flagship AI governance assistant, designed to simplify public processes in emerging and developed economies alike.",
+        currentProjects: [
+            "Axis & Orbit"
+        ],
+        expertise: ["Global Market Strategy","Public Innovation and AI Governance","Political Communication and Diplomacy","Bilingual and Multilingual Project Delivery"]
     }
+    
 ];
 
 const PersonPage: React.FC = () => {

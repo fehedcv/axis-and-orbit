@@ -21,6 +21,15 @@ const Team = () => {
       flag: '🇮🇳',
       since: '2024',
       avatar: 'https://raw.githubusercontent.com/fehedcv/axis-and-orbit/refs/heads/main/img/fahad.jpeg'
+    },
+    {
+      id: 'moon',
+      name: 'Moon Sohn',
+      role: 'Strategic Advisor', 
+      location: 'Daejeon, Korea',
+      flag: '🇰🇷',
+      since: '2023',
+      avatar: 'https://raw.githubusercontent.com/fehedcv/axis-and-orbit/refs/heads/main/img/WhatsApp%20Image%202025-07-25%20at%2011.11.52%20AM.jpeg'
     }
   ];
 
